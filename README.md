@@ -19,4 +19,4 @@ color: Body color
 
 
 ### Challenges faced
-None, really. It was interesting to 
+None, really. 
