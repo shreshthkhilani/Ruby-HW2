@@ -69,8 +69,7 @@ while (!quit)
 		for index in 0...garage.size
 			garage[index].print rescue puts "You don't own that car :/"
 		end
-	end
-elsif (option == 6)
+	elsif (option == 6)
 		quit = true
 		puts "Have a nice day!"
 	end
