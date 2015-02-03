@@ -22,6 +22,7 @@ class Car
 	end
 end
 
+# Buy a car
 def buy_car (garage)
 	puts 'What is the name of your car? '
 	name = gets.chomp
@@ -35,6 +36,7 @@ def buy_car (garage)
 	garage.push(car)
 end
 
+# Functin to sort garage by years of manufacture
 def sort_cars_by_year (garage)
 	garage.sort{|a, b| a.year <=> b.year}
 end
@@ -43,6 +45,7 @@ garage = []
 
 quit = false
 
+# Main loop for program
 while (!quit)
 	puts "(1) Buy a car"
 	puts "(2) Sort cars by year"
